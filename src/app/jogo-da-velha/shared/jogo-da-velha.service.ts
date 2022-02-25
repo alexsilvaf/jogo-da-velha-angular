@@ -27,7 +27,7 @@ export class JogoDaVelhaService {
    */
   incializar(): void {
     this._showInicio = true;
-    this._showTabuleiro = true;
+    this._showTabuleiro = false;
     this._showFinal = false;
     this.numMovimentos = 0;
     this._jogador = this.X;
