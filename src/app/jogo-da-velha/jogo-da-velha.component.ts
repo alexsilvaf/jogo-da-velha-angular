@@ -76,4 +76,18 @@ export class JogoDaVelhaComponent implements OnInit {
     return this.jogoDaVelhaService.exibirVitoria(posX, posY);
   }
 
+  /**
+   * Retorna o número do jogador a jogar.
+   */
+  get jogador(): number {
+    return this.jogoDaVelhaService.jogador;
+  }
+
+  /**
+   * Inicializa um novo jogo, assim como exibe o tabuleiro.
+   */
+  novoJogo(): void {
+    this.jogoDaVelhaService.novoJogo();
+  }
+
 }
