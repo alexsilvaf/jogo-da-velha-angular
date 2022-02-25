@@ -148,7 +148,7 @@ export class JogoDaVelhaService {
     }
     if (tabuleiro[0][2] == jogador &&
       tabuleiro[1][1] == jogador &&
-      tabuleiro[0][2] == jogador) {
+      tabuleiro[2][0] == jogador) {
       fim = [[0, 2], [1, 1], [2, 0]]
     }
 
